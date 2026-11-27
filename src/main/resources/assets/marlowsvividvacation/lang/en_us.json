@@ -1,0 +1,13 @@
+
+{
+  "item.marlowsvividvacation.sand_bucket": "Bucket of Sand",
+  "itemGroup.marlowsvividvacation": "Marlow's Vivid Vacation",
+  "tooltip.marlowsvividvacation.sand_bucket.line1": "Sneak + right-click regular sand",
+  "item.marlowsvividvacation.magical_sand_bucket": "Magical Bucket of Sand",
+  "block.marlowsvividvacation.tropical_sand": "Tropical Sand",
+  "block.marlowsvividvacation.tropical_sandstone": "Tropical Sandstone",
+  "block.marlowsvividvacation.oceanic_stone": "Oceanic Stone",
+  "block.marlowsvividvacation.palm_log": "Palm Log",
+  "block.marlowsvividvacation.palm_leaves": "Palm Leaves",
+  "tooltip.marlowsvividvacation.sand_bucket.line2": "with an empty bucket to collect it."
+}

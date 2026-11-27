@@ -1,0 +1,27 @@
+
+{
+  "parent": "marlowsvividvacation:root",
+  "display": {
+    "icon": {
+      "id": "marlowsvividvacation:sand_bucket"
+    },
+    "title": "Moron",
+    "description": "Goddamit Jamie",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_sand": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "marlowsvividvacation:sand_bucket"
+          ]
+        }
+      }
+    }
+  }
+}

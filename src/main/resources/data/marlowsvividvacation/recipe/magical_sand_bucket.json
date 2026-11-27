@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "marlowsvividvacation:sand_bucket"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "id": "marlowsvividvacation:magical_sand_bucket",
+    "count": 1
+  }
+}

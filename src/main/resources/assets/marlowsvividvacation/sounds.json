@@ -1,0 +1,10 @@
+{
+  "archipelago_music": {
+    "sounds": [
+      {
+        "name": "marlowsvividvacation:music/archipelago_theme",
+        "stream": true
+      }
+    ]
+  }
+}

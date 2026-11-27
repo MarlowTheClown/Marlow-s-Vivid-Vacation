@@ -1,0 +1,29 @@
+
+{
+  "display": {
+    "icon": {
+      "id": "marlowsvividvacation:sand_bucket"
+    },
+    "title": "Marlow's Vivid Vacation",
+    "description": "Your vacation begins with a bucket of sand.",
+    "background": "minecraft:textures/block/sand.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_sand_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "marlowsvividvacation:sand_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

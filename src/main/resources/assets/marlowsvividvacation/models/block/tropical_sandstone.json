@@ -1,0 +1,9 @@
+
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "marlowsvividvacation:block/tropical_sandstone_top",
+    "bottom": "marlowsvividvacation:block/tropical_sandstone_bottom",
+    "side": "marlowsvividvacation:block/tropical_sandstone_side"
+  }
+}
