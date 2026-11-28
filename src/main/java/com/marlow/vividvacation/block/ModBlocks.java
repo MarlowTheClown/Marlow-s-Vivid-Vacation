@@ -10,6 +10,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.LeavesBlock;
+import net.minecraft.world.level.material.MapColor;
 
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -55,6 +56,14 @@ public class ModBlocks {
                     "palm_leaves",
                     LeavesBlock::new,
                     BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)
+            );
+
+    // Pineapple block: melon-like behaviour (strength, sound, push reaction), but yellow
+    public static final DeferredBlock<Block> PINEAPPLE_BLOCK =
+            BLOCKS.registerSimpleBlock(
+                    "pineapple_block",
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.MELON)
+                            .mapColor(MapColor.COLOR_YELLOW)
             );
 
 

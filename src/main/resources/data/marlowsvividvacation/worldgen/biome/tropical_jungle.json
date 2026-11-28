@@ -2,22 +2,19 @@
   "has_precipitation": true,
   "temperature": 0.95,
   "downfall": 0.8,
-
   "effects": {
     "fog_color": 12638463,
     "sky_color": 7842047,
     "water_color": 4566514,
     "water_fog_color": 267827,
-    "grass_color": 7972607,
+    "grass_color": 4775982,
     "foliage_color": 6538281
   },
-
   "spawners": {},
   "spawn_costs": {},
   "carvers": {
-  "air": []
+    "air": []
   },
-
   "features": [
     [],
     [],
@@ -28,7 +25,16 @@
     [],
     [],
     [],
-    [],
+    [
+      "marlowsvividvacation:ceiba_tree_jungle",
+      "marlowsvividvacation:jungle_mossy_rocks",
+      "marlowsvividvacation:jungle_bamboo",
+      "marlowsvividvacation:jungle_large_ferns",
+      "marlowsvividvacation:jungle_tall_grass",
+      "marlowsvividvacation:jungle_ground_cover",
+      "marlowsvividvacation:jungle_pineapples",
+      "marlowsvividvacation:jungle_orchids"
+    ],
     []
   ]
 }

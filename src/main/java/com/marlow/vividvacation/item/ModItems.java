@@ -82,6 +82,23 @@ public class ModItems {
                     ModBlocks.PALM_LEAVES
             );
 
+    public static final Supplier<BlockItem> PINEAPPLE_BLOCK =
+            ITEMS.registerSimpleBlockItem(
+                    ModBlocks.PINEAPPLE_BLOCK
+            );
+
+    // Like a melon slice: small, cheap food
+    public static final DeferredItem<Item> PINEAPPLE_SLICE =
+            ITEMS.registerSimpleItem(
+                    "pineapple_slice",
+                    new Item.Properties()
+                            .food(new FoodProperties.Builder()
+                                    .nutrition(2)
+                                    .saturationModifier(0.3f)
+                                    .build()
+                            )
+            );
+
 
 
 

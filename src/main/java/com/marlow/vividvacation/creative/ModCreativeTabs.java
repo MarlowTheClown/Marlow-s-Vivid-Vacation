@@ -34,6 +34,8 @@ public class ModCreativeTabs {
                             )
                             .displayItems((parameters, output) -> {
                                 output.accept(ModItems.SAND_BUCKET.get());
+                                output.accept(ModItems.PINEAPPLE_BLOCK.get());
+                                output.accept(ModItems.PINEAPPLE_SLICE.get());
                                 output.accept(ModItems.MAGICAL_SAND_BUCKET.get());
                                 output.accept(ModBlocks.TROPICAL_SAND.get());
                                 output.accept(ModBlocks.TROPICAL_SANDSTONE.get());

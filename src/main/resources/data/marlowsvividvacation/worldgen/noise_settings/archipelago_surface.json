@@ -46,13 +46,43 @@
             "argument2": "minecraft:overworld/continents"
           },
           "argument2": {
-            "type": "minecraft:mul",
-            "argument1": 0.065,
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:mul",
+              "argument1": 0.065,
+              "argument2": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:surface",
+                "xz_scale": 0.08,
+                "y_scale": 0.0
+              }
+            },
             "argument2": {
-              "type": "minecraft:noise",
-              "noise": "minecraft:surface",
-              "xz_scale": 0.08,
-              "y_scale": 0.0
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:clamp",
+                "input": {
+                  "type": "minecraft:add",
+                  "argument1": 0.44,
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": 4.0,
+                    "argument2": "minecraft:overworld/continents"
+                  }
+                },
+                "min": 0.0,
+                "max": 1.0
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": 0.3,
+                "argument2": {
+                  "type": "minecraft:noise",
+                  "noise": "minecraft:surface",
+                  "xz_scale": 0.25,
+                  "y_scale": 0.0
+                }
+              }
             }
           }
         }
@@ -228,13 +258,43 @@
             "argument2": "minecraft:overworld/continents"
           },
           "argument2": {
-            "type": "minecraft:mul",
-            "argument1": 0.065,
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:mul",
+              "argument1": 0.065,
+              "argument2": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:surface",
+                "xz_scale": 0.08,
+                "y_scale": 0.0
+              }
+            },
             "argument2": {
-              "type": "minecraft:noise",
-              "noise": "minecraft:surface",
-              "xz_scale": 0.08,
-              "y_scale": 0.0
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:clamp",
+                "input": {
+                  "type": "minecraft:add",
+                  "argument1": 0.44,
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": 4.0,
+                    "argument2": "minecraft:overworld/continents"
+                  }
+                },
+                "min": 0.0,
+                "max": 1.0
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": 0.3,
+                "argument2": {
+                  "type": "minecraft:noise",
+                  "noise": "minecraft:surface",
+                  "xz_scale": 0.25,
+                  "y_scale": 0.0
+                }
+              }
             }
           }
         }

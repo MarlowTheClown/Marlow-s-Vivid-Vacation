@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "marlowsvividvacation:pineapple_block"
+    }
+  ],
+  "result": {
+    "id": "marlowsvividvacation:pineapple_slice",
+    "count": 9
+  }
+}

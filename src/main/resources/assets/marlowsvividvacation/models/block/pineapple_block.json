@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "marlowsvividvacation:block/pineapple_block_top",
+    "side": "marlowsvividvacation:block/pineapple_block_side"
+  }
+}
